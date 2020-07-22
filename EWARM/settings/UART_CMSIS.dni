@@ -1,0 +1,102 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[stlink]
+stlinkserialNo=79E946E4
+stlinkfoundProbes=
+[DebugChecksum]
+Checksum=-1551839958
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=1
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[struct_types]
+Fmt0=PCD_TypeDef-DIEPTXF0_HNPTXFSIZ	4	0
+Fmt1=PCD_TypeDef-GINTMSK	4	0
+Fmt2=PCD_TypeDef-GINTSTS	4	0
+Fmt3=PCD_TypeDef-GOTGCTL	4	0
+Fmt4=PCD_TypeDef-GRSTCTL	4	0
+Fmt5=PCD_TypeDef-GRXFSIZ	4	0
+Fmt6=PCD_TypeDef-GRXSTSR	4	0
+Fmt7=PCD_TypeDef-GUSBCFG	4	0
+Fmt8=PCD_TypeDef-HNPTXSTS	4	0
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\Middlewares\ST\STM32_USB_Device_Library\Class\CustomHID\Src\usbd_customhid.c}.446.7" 0 0 1 "" 0 "" 0
+Count=1
+[Aliases]
+A0=_ "C:\Users\david\Desktop\STM32F407Projects\UART_CMSIS\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f407xx.s" "D:\STMCube compatible projects\STM32F407Projects\UART_CMSIS\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s"
+Count=1
+SuppressDialog=1

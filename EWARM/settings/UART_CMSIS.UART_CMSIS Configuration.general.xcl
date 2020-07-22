@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armstlink.dll" 
+
+"F:\Documents2\development\STM32F407Projects\CMSIS_USB_CUSTOMHID\EWARM\UART_CMSIS Configuration\Exe\UART_CMSIS Configuration.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\config\flashloader\ST\FlashSTM32F4xxx.board" 
+
+
+
+
